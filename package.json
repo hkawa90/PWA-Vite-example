@@ -1,0 +1,17 @@
+{
+  "name": "pwa-vite-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build-ghPages": "vite build --config vite.config.deploy.github-ghPages.js",
+    "deploy": "bash deploy.sh",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.1.0",
+    "vite-plugin-pwa": "^0.14.2"
+  }
+}
